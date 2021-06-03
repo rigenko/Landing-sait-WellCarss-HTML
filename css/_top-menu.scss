@@ -1,0 +1,45 @@
+.top-meny-block{
+  padding: 10px;
+}
+.top-meny-row{
+  display: flex;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+.top-meny-row .top-meny-row{
+  max-width: 213px;
+  width: 100%;
+  flex-direction: column;
+  display: none;
+  position: absolute;
+  top: 50px;
+  background-color: $primary-bg-block;
+  z-index: 10;
+  .top-meny__link{
+    border-bottom: 1px solid #343b44;
+  }
+}
+.top-meny__element{
+  position: relative;
+}
+.top-meny__link{
+  display: block;
+  padding: 20px 15px;
+  border-right: 1px solid #1b2026;
+  border-left: 1px solid #343b44;
+  font-size: 14px;
+  color: $color-txt-alt;
+  
+}
+.top-meny-row .top-meny__element{
+  &:hover .top-meny-row{
+    display: block;
+  }
+}
+.a-upercase{
+  text-transform: uppercase;
+}
+.icon-top-menu{
+  display: none;
+}
+

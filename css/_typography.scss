@@ -1,0 +1,30 @@
+
+.title-h2{
+  @include mx-title-h2;
+}
+.title-h3{
+  @include mx-title-h3;
+}
+.description-txt{
+  @include mx-description-txt;
+}
+.text-content{
+  @include mx-main-txt;
+  text-align: justify;
+}
+.txt-centr{
+  text-align: center;
+}
+.txt-justify{
+  text-align: justify;
+}
+.txt-bold{
+  font-weight: 700;
+}
+.txt-uppcas{
+  text-transform: uppercase;
+}
+.mg-centr{
+  margin-left: auto;
+  margin-right: auto;
+}

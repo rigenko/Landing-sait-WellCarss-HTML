@@ -1,0 +1,100 @@
+@mixin mx-title-h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+  @mixin mx-title-h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  @mixin mx-title-h3 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  @mixin mx-description-txt {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  @mixin mx-main-txt {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  
+  @mixin mx-btn-1{
+    display: block;
+    background: linear-gradient(to top, #079e42, #29c667);
+    border-radius: 3px;
+    border-bottom: 3px solid #00752e;
+    padding: 16px 25px;
+    @include mx-main-txt;
+    font-weight: 700;
+    color: $color-txt-alt;
+    text-align: center;
+    &:hover{
+      background: linear-gradient(to top, #759b28, #94b332);
+      color: #f7160b;
+    }
+    &:active{
+      box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+  @mixin mx-btn-2{
+    max-width: 340px;
+    display: block;
+    background: linear-gradient(to top, #079e42, #29c667);
+    border-radius: 3px;
+    border-bottom: 3px solid #00752e;
+    padding: 33px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $color-txt-alt;
+    text-align: center;
+    &:hover{
+      background: linear-gradient(to top, #759b28, #94b332);
+      color: #f7160b;
+    }
+    &:active{
+      box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+  @mixin mx-btn-3{
+    max-width: 400px;
+    display: block;
+    background: linear-gradient(to top, #079e42, #29c667);
+    border-radius: 3px;
+    border-bottom: 3px solid #00752e;
+    padding: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: $color-txt-alt;
+    text-align: center;
+    &:hover{
+      background: linear-gradient(to top, #759b28, #94b332);
+      color: #f7160b;
+    }
+    &:active{
+      box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+  @mixin mx-btn-4{
+    max-width: 434px;
+    width: 100%;
+    display: block;
+    background: linear-gradient(to top, #079e42, #29c667);
+    border-radius: 3px;
+    border-bottom: 3px solid #00752e;
+    padding: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $color-txt-alt;
+    text-align: center;
+    &:hover{
+      background: linear-gradient(to top, #759b28, #94b332);
+      color: #f7160b;
+    }
+    &:active{
+      box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
+    }
+  }

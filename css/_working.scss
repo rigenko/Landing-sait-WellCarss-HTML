@@ -1,0 +1,28 @@
+.bg-working{
+  background-image: url(../img/working/bg-working-1400.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.working{
+  padding: 50px 10px;
+  display: flex;
+  justify-content: space-between;
+  color: $color-txt-alt;
+}
+.working-description{
+  max-width: 600px;
+  width: 100%;
+}
+.working-img{
+  max-width: 840px;
+  height: 100%;
+}
+.text-content--marker::before{
+  content: '\25CF';
+  color: $color-txt-span;
+  margin-right: 12px;
+  font-size: 22px;
+
+  
+}

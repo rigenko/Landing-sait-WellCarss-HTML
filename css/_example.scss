@@ -1,0 +1,38 @@
+.example{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 10px;
+}
+.example-bloc{
+  max-width: 495px;
+  width: 100%;
+}
+.example-slaider{
+  max-width: 854px;
+  width: 100%;
+} 
+.example-slaider__slaid{
+  position: relative;
+  padding: 20px 0;
+}
+.example-slaider__icon-block{
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: red;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+}
+.example-slaider__icon{
+  font-size: 27px;
+  color: $color-txt-alt;
+  font-weight: 700;
+}
+.example-slaider__icon-block--bg{
+  background: linear-gradient(to top, #079e42, #29c667);
+}

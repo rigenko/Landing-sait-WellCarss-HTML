@@ -1,0 +1,303 @@
+@media (max-width : 1400px) {
+	// header
+  // top-meny
+  // top-slaider
+  // top-form
+  // services
+  // example
+  // prices
+  // advantages
+  // registration
+  // working
+  // partners
+  // questions
+  // contacts
+  // footer
+}
+@media (max-width : 1200px) {
+	// header
+  // top-meny
+  // top-slaider
+  .bg-top-slaider{
+    background-image: url(../img/top-slaider/bg-top-slider-md-1200.jpg);
+  }
+  // top-form
+  .top-form{
+    position: static;
+  }
+  // services
+  .services{
+    padding: 50px 0 25px 0;
+  }
+  // example
+  // prices
+  .bg-prices{
+    background-image: url(../img/prices/bg-prices-md-1200.jpg);
+  }
+  // advantages
+  // registration
+  // working
+  .bg-working{
+    background-image: url(../img/working/bg-working-md-1200.jpg);
+  }
+  // partners
+  // questions
+  // contacts
+  // footer
+}
+@media (max-width : 992px) {
+	// header
+	.header-flx{
+    flex-direction: column;
+  }
+  .header-kontact{
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  .btn-1{
+    margin-top: 20px;
+  }
+  // top-meny
+  .top-meny-block{
+    margin-top: 20px;
+  }
+  // top-slaider
+  .bg-top-slaider{
+    background-image: url(../img/top-slaider/bg-top-slider-md-992.jpg);
+  }
+  // top-form
+  .form-1{
+    flex-direction: column;
+  }
+  .top-form__inp{
+    max-width: 900px;
+    margin-bottom: 20px;
+  }
+  // services
+  // example
+  .example{
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  // prices
+  .bg-prices{
+    background-image: url(../img/prices/bg-prices-md-992.jpg);
+  }
+  .prices-row{
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  // advantages
+  // registration
+  .registration{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+  }
+  .registration-form{
+    margin-bottom: 20px;
+  }
+  // working
+  .working-img{
+    max-width: 500px;
+  }
+  .bg-working{
+    background-image: url(../img/working/bg-working-md-992.jpg);
+  }
+  // partners
+  // questions
+  .questions{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  // contacts
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .contacts-maps{
+    position: static;
+    height: 600px;
+  }
+  .contacts-blok{
+    margin-top: 20px;
+  }
+  // footer
+  .footer-contacts{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-row{
+    margin-top: 20px;
+  }
+}
+@media (max-width : 768px) {
+	// header
+  // top-meny
+  // top-slaider
+  .bg-top-slaider{
+    background-image: url(../img/top-slaider/bg-top-slider-md-768.jpg);
+  }
+  // top-form
+  // services
+  .services-row{
+    flex-wrap: wrap;
+  }
+  // example
+  // prices
+  .bg-prices{
+    background-image: url(../img/prices/bg-prices-md-768.jpg);
+  }
+  // advantages
+  .advantages-row{
+    flex-direction: column;
+    align-items: center;
+  }
+  // registration
+  .registration-description__number{
+    font-size: 24px;
+  }
+  // working
+  .working-img{
+    display: none;
+  }
+  .bg-working{
+    background-image: url(../img/working/bg-working-md-768.jpg);
+  }
+  // partners
+  .partners-row{
+    flex-wrap: wrap;
+  }
+  // questions
+  // contacts
+  // footer
+}
+@media (max-width : 576px) {
+  .title-h2{
+    font-size: 26px;
+  }
+  .title-h3{
+    font-size: 18px;
+  }
+	// header
+  .header-kontact{
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-kontact-block{
+    margin-bottom: 20px;
+  }
+  // top-meny
+  .bg-block{
+    background-color: $primary-bg;
+  }
+  .top-meny{
+    display: none;
+    background-color: $primary-bg-block;
+  }
+  .icon-top-menu{
+    display: block;
+    font-size: 40px;
+  }
+  &:hover .top-meny{
+    display: block;
+  }
+  // top-slaider
+  .bg-top-slaider{
+    background-image: url(../img/top-slaider/bg-top-slider-md-576.jpg);
+  }
+  // top-form
+  // services
+  // example
+  .example-slaider__icon-block{
+    width: 80px;
+    height: 80px;
+  }
+  .example-slaider__icon{
+    font-size: 18px;
+  }
+  // prices
+  .bg-prices{
+    background-image: url(../img/prices/bg-prices-md-576.jpg);
+  }
+  // advantages
+  // registration
+  // working
+  .bg-working{
+    background-image: url(../img/working/bg-working-md-576.jpg);
+  }
+  // partners
+  // questions
+  // contacts
+  // footer
+}
+@media (max-width : 480px) {
+	// header
+  // top-meny
+  .top-meny-row{
+    flex-direction: column;
+  }
+  // top-slaider
+  .top-slaider-services{
+    flex-direction: column;
+  }
+  .top-slaider-services-bloc{
+    margin-bottom: 20px;
+  }
+  .top-slaider-services__text{
+    text-align: left;
+  }
+  // top-form
+  // services
+  .services-row{
+    flex-direction: column;
+    align-items: center;
+  }
+  // example
+  .example-slaider__icon-block{
+    width: 50px;
+    height: 50px;
+  }
+  .example-slaider__icon{
+    font-size: 14px;
+  }
+  // prices
+  .prices-row-block-sum{
+    flex-direction: column;
+  }
+  // advantages
+  // registration
+  .registration-description__number{
+    font-size: 20px;
+  }
+  // working
+  // partners
+  .partners-row{
+    flex-direction: column;
+    align-items: center;
+  }
+  // questions
+  // contacts
+  .contacts-maps{
+    height: 400px;
+  }
+  .contacts-blok{
+    padding: 10px;
+  }
+  // footer
+  .footer-row{
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-row__element{
+    text-align: center;
+  }
+  .txt-left{
+    text-align: left;
+  }
+  .contacts-blok-flx {
+    margin-top: 20px;
+  }
+}

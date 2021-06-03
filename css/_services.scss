@@ -1,0 +1,28 @@
+.services{
+  padding: 230px 0 25px 0;
+}
+.services-row{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 8px 8px rgba(0,0,0,0.5); 
+  margin-top: 64px;
+}
+.services-row__element{
+  max-width: 180px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.icon-services{
+  font-size: 72px;
+  color: $color-txt-span;
+}
+.services-row__link{
+  padding: 5px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-top: 30px;
+  border-bottom: 1px dashed $color-txt-span;
+  color: $color-txt-span;
+}
+

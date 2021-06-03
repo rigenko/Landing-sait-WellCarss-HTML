@@ -1,0 +1,37 @@
+
+.contacts-position{
+  position: relative;
+}
+.contacts{
+  margin-top: 100px;
+  padding: 50px 10px;
+}
+.contacts-maps{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  max-width: 1920px;
+  width: 100%;
+  height: 100%; 
+}
+.contacts-blok{
+  max-width: 490px;
+  width: 100%;
+  padding: 50px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.5); 
+  background-color: $primary-bg;
+  border-radius: 5px;
+}
+.contacts-blok-flx{
+  display: flex;
+  margin-top: 36px;
+  align-items: flex-start;
+}
+.contacts-blok-btn{
+  @include mx-btn-1;
+  text-transform: uppercase;
+}
+.contacts-mail{
+  color: $primary-color-txt;
+}

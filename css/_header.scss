@@ -1,0 +1,39 @@
+.header-flx{
+  display: flex;
+  align-items: center;
+}
+.header-logo{
+  display: inline-block;
+  max-width: 150px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.header-kontact{
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: 80px;
+}
+.header-kontact-block{
+  max-width: 290px;
+  width: 100%;
+  display: flex;
+  align-items: start;
+}
+.header-icon{
+  font-size: 24px;
+  padding: 9px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+  color: $color-txt-span;
+  margin-right: 20px;
+}
+.description-txt--fz{
+  font-size: 13px;
+}
+.btn-1{
+  @include mx-btn-1;
+}

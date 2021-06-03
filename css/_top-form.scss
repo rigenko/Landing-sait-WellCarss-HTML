@@ -1,0 +1,39 @@
+.top-form{
+  max-width: 1170px;
+  width: 100%;
+  position: absolute;
+  top: 650px;
+  left: calc(50% - 585px);
+  background-color: $primary-bg;
+  border-radius: 3px;
+  padding: 50px 35px; 
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.5); 
+  
+}
+.title-top-form{
+  font-size: 30px;
+  color: $primary-color-txt;
+  font-weight: normal;
+}
+.txt-bold{
+  font-weight: 700;
+}
+.form-1{
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-form__inp{
+  max-width: 340px;
+  width: 100%;
+  padding: 35px 10px 35px 25px;
+  border: 3px solid #efeff3;
+  border-radius: 4px;
+  background-color: #f6f6f8;
+  @include mx-main-txt;
+  color: $primary-color-txt;
+}
+.top-form__btn{
+  @include mx-btn-2;
+}

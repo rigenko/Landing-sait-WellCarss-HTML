@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: $primary-font;
+  color: $primary-color-txt;
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container{
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bg-block{
+  background-color: $primary-bg-block;
+}
+a{
+  border: none;
+  outline: none;
+  background-color: none;
+  transition: 0.5s;
+  text-decoration: none;
+  &:focus{
+    box-shadow: 0 0 10px rgba(90, 88, 88, 0.5);
+  }
+  &:hover{
+    color: #d0042b;
+    transition: 0.5s;
+  }
+}
+li{
+  list-style-type: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p{
+  padding: 0;
+  margin: 0;
+}
+button,
+input,
+select{
+  border: none;
+  outline: none;
+  background-color: none;
+  &:focus{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  &:hover{
+    background-color: #aca8a8;
+  }
+  &:active{
+    background-color: $primary-color-txt;
+  }
+}
+input{
+  cursor: pointer;
+}
+textarea{
+  border: none;
+  outline: none;
+  background-color: none;
+}
+img{
+  width: 100%;
+}
+.borderbbotom-block{
+  max-width: 220px;
+  width: 100%;
+  border-bottom: 4px solid $color-txt-span;
+}
+.mg-t-30{
+  margin-top: 30px;
+}
+.mg-b-30{
+  margin-top: 30px;
+}
+.hdh-50{
+  height: 50px;
+}
+

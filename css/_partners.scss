@@ -1,0 +1,21 @@
+.partners{
+  padding: 50px 10px;
+}
+.partners-row{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 40px;
+  box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.3);
+}
+.partners-row__element{
+  max-width: 190px;
+  width: 100%;
+}
+.partners-row__link{
+  display: block;
+  border-radius: 3px;
+  padding: 10px;
+}
+
